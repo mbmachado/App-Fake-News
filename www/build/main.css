@@ -25674,10 +25674,14 @@ ion-navbar.toolbar {
   min-height: calc(46px + env(safe-area-inset-bottom));
 }
 
-ion-item {
+.my-list > ion-item {
   padding-left: 0 !important;
 }
 
-button {
+.my-btn {
   margin-top: 25px !important;
+}
+
+textarea {
+  resize: none;
 }
