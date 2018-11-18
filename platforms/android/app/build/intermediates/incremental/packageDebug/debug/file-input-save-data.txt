@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sun Nov 18 17:02:09 BRT 2018
+#Sun Nov 18 18:33:08 BRT 2018
 5.base=/var/www/html/App-Fake-News/platforms/android/app/build/intermediates/res/debug/resources-debug.ap_
 42.base=/var/www/html/App-Fake-News/platforms/android/app/build/intermediates/assets/debug
 32.set=ANDROID_RESOURCE

@@ -15,11 +15,11 @@
 			<ion-list class="my-list">
   			<ion-item>
 					<ion-label stacked>Link/Texto</ion-label>
-    			<ion-textarea type="text" rows="4"></ion-textarea>
+    			<ion-textarea type="text" rows="4" #text></ion-textarea>
 				</ion-item>
 			</ion-list>
 			
-			<button ion-button full round class="my-btn">Verificar</button>
+			<button ion-button full round class="my-btn" (click)="goToResultPage(text.value)">Verificar</button>
 	  </ion-card-content>
 	</ion-card>
 </ion-content>

@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
+import { ResultPage } from '../result/result';
 
 @Component({
   selector: 'page-home',
@@ -11,4 +12,10 @@ export class HomePage {
 
   }
 
+  goToResultPage(text) {
+  	text = text || "Você não digitou nada!";
+  	this.navCtrl.push(ResultPage, {
+  		data: text
+  	});
+  }
 }

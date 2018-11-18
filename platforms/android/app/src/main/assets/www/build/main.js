@@ -63,7 +63,7 @@ var TabsPage = /** @class */ (function () {
         this.tab3Root = __WEBPACK_IMPORTED_MODULE_2__contact_contact__["a" /* ContactPage */];
     }
     TabsPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"/var/www/html/App-Fake-News/src/pages/tabs/tabs.html"*/'<ion-tabs>\n  <ion-tab [root]="tab1Root" tabTitle="Home" tabIcon="home"></ion-tab>\n  <ion-tab [root]="tab2Root" tabTitle="Instruções" tabIcon="information-circle"></ion-tab>\n  <ion-tab [root]="tab3Root" tabTitle="Contato" tabIcon="contacts"></ion-tab>\n</ion-tabs>\n'/*ion-inline-end:"/var/www/html/App-Fake-News/src/pages/tabs/tabs.html"*/
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"/var/www/html/App-Fake-News/src/pages/tabs/tabs.html"*/'<ion-tabs>\n  <ion-tab [root]="tab1Root" tabTitle="Home" tabIcon="home"></ion-tab>\n  <ion-tab [root]="tab2Root" tabTitle="Dicas" tabIcon="information-circle"></ion-tab>\n  <ion-tab [root]="tab3Root" tabTitle="Contato" tabIcon="contacts"></ion-tab>\n</ion-tabs>\n'/*ion-inline-end:"/var/www/html/App-Fake-News/src/pages/tabs/tabs.html"*/
         }),
         __metadata("design:paramtypes", [])
     ], TabsPage);
@@ -98,7 +98,7 @@ var AboutPage = /** @class */ (function () {
     }
     AboutPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-about',template:/*ion-inline-start:"/var/www/html/App-Fake-News/src/pages/about/about.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n      Dicas\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n	<ion-card>\n	  <img src="https://picsum.photos/400/300?random"/>\n	  <ion-card-content>\n	    <ion-card-title>\n	      Considere a fonte\n	      </ion-card-title>\n	    <p>\n	      Clique fora da história para investigar o site, sua missão e contato.\n	    </p>\n	  </ion-card-content>\n	</ion-card>\n\n	<ion-card>\n	  <img src="https://picsum.photos/400/300?random"/>\n	  <ion-card-content>\n	    <ion-card-title>\n	      Leia Mais\n	      </ion-card-title>\n	    <p>\n	      Títulos chamam a atenção para obter cliques. Qual é a história completa?\n	    </p>\n	  </ion-card-content>\n	</ion-card>\n\n	<ion-card>\n	  <img src="https://picsum.photos/400/300?random"/>\n	  <ion-card-content>\n	    <ion-card-title>\n	      Verifique o autor\n	      </ion-card-title>\n	    <p>\n	      Faça uma breve pesquisa sobre o autor. Ele é confiável? Ele existe mesmo?\n	    </p>\n	  </ion-card-content>\n	</ion-card>\n\n	<ion-card>\n	  <img src="https://picsum.photos/400/300?random"/>\n	  <ion-card-content>\n	    <ion-card-title>\n	      Fontes de apoio?\n	      </ion-card-title>\n	    <p>\n	      Clique nos links. Verifique se a informação oferece apoio à história.\n	    </p>\n	  </ion-card-content>\n	</ion-card>\n\n	<ion-card>\n	  <img src="https://picsum.photos/400/300?random"/>\n	  <ion-card-content>\n	    <ion-card-title>\n	      Verifique a data\n	      </ion-card-title>\n	    <p>\n	      Repostar notícias antigas não significa que sejam relevantes atualmente.\n	    </p>\n	  </ion-card-content>\n	</ion-card>\n\n	<ion-card>\n	  <img src="https://picsum.photos/400/300?random"/>\n	  <ion-card-content>\n	    <ion-card-title>\n	      Isso é uma piada?\n	      </ion-card-title>\n	    <p>\n	      Caso seja muito estranho, pode ser uma sátira. Pesquise sobre o site e o autor.\n	    </p>\n	  </ion-card-content>\n	</ion-card>\n\n	<ion-card>\n	  <img src="https://picsum.photos/400/300?random"/>\n	  <ion-card-content>\n	    <ion-card-title>\n	      É preconceito?\n	      </ion-card-title>\n	    <p>\n	      Avalie se seus valores próprios e crenças podem afetar seu julgamento.\n	    </p>\n	  </ion-card-content>\n	</ion-card>\n\n	<ion-card>\n	  <img src="https://picsum.photos/400/300?random"/>\n	  <ion-card-content>\n	    <ion-card-title>\n	      Consulte especialistas\n	      </ion-card-title>\n	    <p>\n	      Pergunte a um bibliotecário ou utilize esta ferramenta de verificação. \n	    </p>\n	  </ion-card-content>\n	</ion-card>\n</ion-content>\n'/*ion-inline-end:"/var/www/html/App-Fake-News/src/pages/about/about.html"*/
+            selector: 'page-about',template:/*ion-inline-start:"/var/www/html/App-Fake-News/src/pages/about/about.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n      Dicas\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n	<ion-card>\n	  <img src="https://picsum.photos/400/300?random"/>\n	  <ion-card-content>\n	    <ion-card-title>\n	      Considere a fonte\n	      </ion-card-title>\n	    <p>\n	      Clique fora da história para investigar o site, sua missão e contato\n	    </p>\n	  </ion-card-content>\n	</ion-card>\n\n	<ion-card>\n	  <img src="https://picsum.photos/400/300?random"/>\n	  <ion-card-content>\n	    <ion-card-title>\n	      Leia Mais\n	      </ion-card-title>\n	    <p>\n	      Títulos chamam a atenção para obter cliques. Qual é a história completa?\n	    </p>\n	  </ion-card-content>\n	</ion-card>\n\n	<ion-card>\n	  <img src="https://picsum.photos/400/300?random"/>\n	  <ion-card-content>\n	    <ion-card-title>\n	      Verifique o autor\n	      </ion-card-title>\n	    <p>\n	      Faça uma breve pesquisa sobre o autor. Ele é confiável? Ele existe mesmo?\n	    </p>\n	  </ion-card-content>\n	</ion-card>\n\n	<ion-card>\n	  <img src="https://picsum.photos/400/300?random"/>\n	  <ion-card-content>\n	    <ion-card-title>\n	      Fontes de apoio?\n	      </ion-card-title>\n	    <p>\n	      Clique nos links. Verifique se a informação oferece apoio à história\n	    </p>\n	  </ion-card-content>\n	</ion-card>\n\n	<ion-card>\n	  <img src="https://picsum.photos/400/300?random"/>\n	  <ion-card-content>\n	    <ion-card-title>\n	      Verifique a data\n	      </ion-card-title>\n	    <p>\n	      Repostar notícias antigas não significa que sejam relevantes atualmente\n	    </p>\n	  </ion-card-content>\n	</ion-card>\n\n	<ion-card>\n	  <img src="https://picsum.photos/400/300?random"/>\n	  <ion-card-content>\n	    <ion-card-title>\n	      Isso é uma piada?\n	      </ion-card-title>\n	    <p>\n	      Caso seja muito estranho, pode ser uma sátira. Pesquise sobre o site e o autor\n	    </p>\n	  </ion-card-content>\n	</ion-card>\n\n	<ion-card>\n	  <img src="https://picsum.photos/400/300?random"/>\n	  <ion-card-content>\n	    <ion-card-title>\n	      É preconceito?\n	      </ion-card-title>\n	    <p>\n	      Avalie se seus valores próprios e crenças podem afetar seu julgamento\n	    </p>\n	  </ion-card-content>\n	</ion-card>\n\n	<ion-card>\n	  <img src="https://picsum.photos/400/300?random"/>\n	  <ion-card-content>\n	    <ion-card-title>\n	      Consulte especialistas\n	      </ion-card-title>\n	    <p>\n	      Pergunte a um bibliotecário ou utilize esta ferramenta de verificação \n	    </p>\n	  </ion-card-content>\n	</ion-card>\n</ion-content>\n'/*ion-inline-end:"/var/www/html/App-Fake-News/src/pages/about/about.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */]])
     ], AboutPage);
@@ -214,6 +214,9 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
 
 
 
@@ -225,7 +228,10 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 var AppModule = /** @class */ (function () {
-    function AppModule() {
+    function AppModule(statusBar) {
+        this.statusBar = statusBar;
+        this.statusBar.backgroundColorByHexString('#3260b2');
+        this.statusBar.styleLightContent();
     }
     AppModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
@@ -255,7 +261,8 @@ var AppModule = /** @class */ (function () {
                 __WEBPACK_IMPORTED_MODULE_9__ionic_native_splash_screen__["a" /* SplashScreen */],
                 { provide: __WEBPACK_IMPORTED_MODULE_0__angular_core__["u" /* ErrorHandler */], useClass: __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["b" /* IonicErrorHandler */] }
             ]
-        })
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_8__ionic_native_status_bar__["a" /* StatusBar */]])
     ], AppModule);
     return AppModule;
 }());
