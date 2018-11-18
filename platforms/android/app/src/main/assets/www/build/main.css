@@ -25673,3 +25673,15 @@ ion-navbar.toolbar {
   min-height: calc(46px + constant(safe-area-inset-bottom));
   min-height: calc(46px + env(safe-area-inset-bottom));
 }
+
+.my-list > ion-item {
+  padding-left: 0 !important;
+}
+
+.my-btn {
+  margin-top: 25px !important;
+}
+
+textarea {
+  resize: none;
+}
