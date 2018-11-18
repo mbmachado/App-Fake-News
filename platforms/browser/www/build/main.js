@@ -168,7 +168,7 @@ var HomePage = /** @class */ (function () {
     }
     HomePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-home',template:/*ion-inline-start:"/var/www/html/App-Fake-News/src/pages/home/home.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>Detector de FakeNews</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <h2>Bem-Vindo!</h2>\n  <p>\n    Este é um teste!\n  </p>\n  <p>\n</ion-content>\n'/*ion-inline-end:"/var/www/html/App-Fake-News/src/pages/home/home.html"*/
+            selector: 'page-home',template:/*ion-inline-start:"/var/www/html/App-Fake-News/src/pages/home/home.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>Detector de FakeNews</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <ion-card>\n	  <ion-card-header>\n	    Analisar Notícia\n	  </ion-card-header>\n	  <ion-card-content>\n	    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione quod, veritatis ipsum a illum enim!</p>\n	    \n			<ion-list>\n  			<ion-item>\n					<ion-label stacked>Link/Texto</ion-label>\n    			<ion-textarea type="text"></ion-textarea>\n				</ion-item>\n			</ion-list>\n			\n			<button ion-button full round>Verificar</button>\n	  </ion-card-content>\n	</ion-card>\n</ion-content>\n'/*ion-inline-end:"/var/www/html/App-Fake-News/src/pages/home/home.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */]])
     ], HomePage);
