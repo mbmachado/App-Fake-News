@@ -7,12 +7,32 @@
 <ion-header>
 
   <ion-navbar>
-    <ion-title>Resultado</ion-title>
+    <ion-title>Análise</ion-title>
   </ion-navbar>
 
 </ion-header>
 
 
 <ion-content padding>
-	{{text}}
+	<ion-card>
+	  <ion-card-content>
+	    <ion-card-title>
+	      Conteúdo
+	    </ion-card-title>
+	    <p>
+	      {{text}}
+	    </p>
+	  </ion-card-content>
+	</ion-card>
+
+	<ion-card>
+	  <ion-card-content>
+	    <ion-card-title>
+	      Resultado
+	    </ion-card-title>
+	    <p>
+	      {{response}}
+	    </p>
+	  </ion-card-content>
+	</ion-card>
 </ion-content>

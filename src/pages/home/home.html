@@ -13,13 +13,20 @@
 	    <p>Cole um link ou um texto aqui para verificar!</p>
 	    
 			<ion-list class="my-list">
+  			<ion-item class="my-item">
+				  <ion-label stacked>Tipo</ion-label>
+				  <ion-select #type>
+				    <ion-option value="l" selected>Link</ion-option>
+				    <ion-option value="t">Texto</ion-option>
+				  </ion-select>
+				</ion-item>
   			<ion-item>
-					<ion-label stacked>Link/Texto</ion-label>
+					<ion-label stacked>Link ou Texto</ion-label>
     			<ion-textarea type="text" rows="4" #text></ion-textarea>
 				</ion-item>
 			</ion-list>
 			
-			<button ion-button full round class="my-btn" (click)="goToResultPage(text.value)">Verificar</button>
+			<button ion-button full round class="my-btn" (click)="goToResultPage(text.value, type.value)">Verificar</button>
 	  </ion-card-content>
 	</ion-card>
 </ion-content>

@@ -12,10 +12,12 @@ export class HomePage {
 
   }
 
-  goToResultPage(text) {
-  	text = text || "Você não digitou nada!";
+  goToResultPage(_text, _type) {
+  	_text = _text || "";
+
   	this.navCtrl.push(ResultPage, {
-  		data: text
+  		text: _text, 
+      type: _type
   	});
   }
 }
