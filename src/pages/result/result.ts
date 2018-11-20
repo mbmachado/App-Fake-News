@@ -36,19 +36,19 @@ export class ResultPage {
       type = parseFloat(data["robot"].fake_news);
     }
 
-    if(type == 0.0) {
+    if(type < 1) {
       this.response = "Inconclusivo";
-    } else if (type <= 1) {
+    } else if (type >= 1 && type < 2) {
       this.response = "Notícia Real";
-    } else if (type <= 2) {
+    } else if (type >= 2 && type < 3) {
       this.response = "Notícia Falsa";
-    } else if (type <= 3) {
+    } else if (type >= 3 && type < 4) {
       this.response = "Click Bait";
-    } else if (type <= 4) {
+    } else if (type >= 4 && type < 5) {
       this.response = "Extremamente Tendencioso";
-    } else if (type <= 5) {
+    } else if (type >= 5 && type < 6) {
       this.response = "Sátira";
-    } else if (type <= 6) {
+    } else {
       this.response = "Não é Notícia";
     }
   }
